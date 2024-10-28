@@ -13,9 +13,9 @@ const Footer = () => {
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3">
               Be Ready To Grow
             </h1>
-            <p className="text-gray-400">
+            <p className="text-gray-200">
               Get exclusive{" "}
-              <span className=" text-white font-bold "> best update</span>{" "}
+              <span className="font-bold "> best update</span>{" "}
               straight to your inbox.{" "}
             </p>
             <br />
@@ -25,7 +25,7 @@ const Footer = () => {
                 type="text"
                 placeholder="Email"
               />
-              <button className="bg-orange-500 hover:bg-orange-500/75 h-full inline-block py-2 px-6 text-white">
+              <button className="bg-yellow-500 hover:bg-yellow-500/75 h-full inline-block py-2 px-6 text-white">
                 Ok
               </button>
             </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                 <div className="flex flex-col gap-3">
                   <div className="flex items-center gap-3">
                     <HiLocationMarker />
-                    <p>Noida, Uttar Pradesh</p>
+                    <p>Kerala, India</p>
                   </div>
                   <div className="flex items-center gap-3 mt-3">
                     <MdMessage />
@@ -85,7 +85,7 @@ const Footer = () => {
         <div className="hidden sm:block">
           <div className="flex justify-between items-center text-center py-6 border-t-2 border-gray-300/40">
             <span className="text-sm text-gray-400">
-              @copyright 2024 Travery || Dilshad
+              @copyright 2024
             </span>
             <div className="flex items-center justify-center gap-4 mb-4">
               <a href="#">
